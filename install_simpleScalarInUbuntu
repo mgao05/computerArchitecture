@@ -1,0 +1,22 @@
+// check this site! https://github.com/sdenel/How-to-install-SimpleScalar-on-Ubuntu
+
+
+
+//And step by step is the following
+
+
+
+1.Launch Terminal
+2.sudo apt-get install git
+3. sudo git clone https://github.com/sdenel/How-to-install-SimpleScalar-on-Ubuntu.git
+4.It should create a folder named How-to-install-SimpleScalar-on-Ubuntu in your home folder.
+5.You might have to adjust the folder permissions.
+6.sudo chmod a+rwx -R How-to-install-SimpleScalar-on-Ubuntu
+7.Make sure you are in the How-to-install-SimpleScalar-on-Ubuntu folder.
+8.../install_simple_scalar.sh
+The script will run for a bit and then tell you that you need simplesim-3v0e.tar in a specific folder. 
+9.Run the install again (step 8).
+You should be good to go.
+
+
+
